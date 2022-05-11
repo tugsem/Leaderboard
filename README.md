@@ -1,7 +1,7 @@
 
-# VillageFest
+# Leaderboard
 
-> A sample page I designed for a festival in the Adrasan Village.
+> A microverse project to use APIs to reveive data from a server.
 
 
 ## Built With
@@ -10,14 +10,11 @@
 - Css
 - Javascript
 - VsCode
+- Webpack
 
 ## Live Demo 
 
-[Live Demo Link](https://tugsem.github.io/VillageFestival/)
-
-## Video Link 
-
-https://www.loom.com/share/ba730c5624894c28a927cd9e06b8cb58
+[Live Demo Link](https://tugsem.github.io/Leaderboard/dist)
 
 ## Getting Started
 
@@ -37,7 +34,7 @@ To get a local copy up and running follow these simple example steps:
 
 ### Usage
 
--Change the text and the images.
+-Add new names and scores to the list.
 
 ## Authors
 
@@ -51,8 +48,4 @@ To get a local copy up and running follow these simple example steps:
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Original design idea by Cindy Chin in Behance.
 
