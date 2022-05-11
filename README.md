@@ -26,11 +26,13 @@ To get a local copy up and running follow these simple example steps:
 
 ### Setup
 
--Copy the clone address or download as a zip into your local folder.
+-Copy the clone address (https://github.com/tugsem/Leaderboard) or download as a zip into your local folder.
+- Open your terminal and cd into the folder.
 
 ### Install
 
--Install npm
+- Install npm
+- Run npm start
 
 ### Usage
 
