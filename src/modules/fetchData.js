@@ -15,7 +15,6 @@ export const addList = () => {
   const name = document.querySelector('#name');
   const score = document.querySelector('#score');
   const ul = document.querySelector('.score-list');
-
   if (name.value.length !== 0 && score.value >= 0) {
     const li = document.createElement('li');
     li.innerText = `${name.value}: ${score.value}`;
