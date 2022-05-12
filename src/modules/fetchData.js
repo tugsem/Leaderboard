@@ -1,4 +1,4 @@
-async function sendAPI(url, data = {}) {
+const sendAPI = async (url, data = {}) => {
   const response = await fetch(url, {
     method: 'POST',
     body: JSON.stringify(data),
@@ -8,7 +8,7 @@ async function sendAPI(url, data = {}) {
     },
   });
   return response.json();
-}
+};
 
 export const addList = () => {
   const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/9kAwNur2oUAcB40wbs6S/scores';
