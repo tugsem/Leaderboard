@@ -16,9 +16,10 @@ export const addList = () => {
   const score = document.querySelector('#score');
   const ul = document.querySelector('.score-list');
   if (name.value.length !== 0 && score.value >= 0) {
-    const li = document.createElement('li');
-    li.innerText = `${name.value}: ${score.value}`;
-    ul.appendChild(li);
+    ul.innerHTML += `<li>
+    <i class="fa-solid fa-user-astronaut"></i>
+    ${name.value}: ${score.value}
+    </li>`;
     sendAPI(url, { user: name.value, score: score.value });
   }
   name.value = '';
@@ -31,8 +32,6 @@ export const getData = async () => {
   const data = await response.json();
   ul.innerHTML = '';
   data.result.forEach((element) => {
-    const li = document.createElement('li');
-    li.innerText = `${element.user}: ${element.score}`;
-    ul.appendChild(li);
+    ul.innerHTML += `<li><i class="fa-solid fa-user-astronaut"></i>${element.user}: ${element.score}</li>`;
   });
 };
