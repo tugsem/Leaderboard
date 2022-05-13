@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps:
 
 ### Setup
 
--Copy the clone address (git@github.com:tugsem/Leaderboard.git) or download as a zip into your local folder.
+-Copy the clone address (https://github.com/tugsem/Leaderboard.git) or download as a zip into your local folder.
 - In your terminal: cd Leaderboard
 
 ### Install
